@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Test.Api", "RabbitMq.Test.Api\RabbitMq.Test.Api.csproj", "{F99B74FC-6643-419F-9A67-CE2AE2FED3D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Test.Api", "RabbitMq.Test.Api\RabbitMq.Test.Api.csproj", "{F99B74FC-6643-419F-9A67-CE2AE2FED3D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageProcessor", "MessageProcessor\MessageProcessor.csproj", "{615DE659-38DB-40C6-8CB3-E17E77D7D9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{9B931C00-A8E4-47FE-921D-BB2D660E452D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Processor", "2 - Processor", "{47370CF5-BC2C-4ABE-8C09-08C747566612}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{F99B74FC-6643-419F-9A67-CE2AE2FED3D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F99B74FC-6643-419F-9A67-CE2AE2FED3D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F99B74FC-6643-419F-9A67-CE2AE2FED3D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615DE659-38DB-40C6-8CB3-E17E77D7D9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615DE659-38DB-40C6-8CB3-E17E77D7D9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615DE659-38DB-40C6-8CB3-E17E77D7D9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615DE659-38DB-40C6-8CB3-E17E77D7D9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F99B74FC-6643-419F-9A67-CE2AE2FED3D9} = {9B931C00-A8E4-47FE-921D-BB2D660E452D}
+		{615DE659-38DB-40C6-8CB3-E17E77D7D9D6} = {47370CF5-BC2C-4ABE-8C09-08C747566612}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20AB6853-98C8-473B-A2E5-1B0CA3F003E5}
